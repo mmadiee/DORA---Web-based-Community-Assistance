@@ -1,0 +1,57 @@
+/*BACK BUTTON*/
+
+  .back-btn{
+    padding-top: 50px;
+    padding-bottom: 20px;
+    margin-left: 100px;
+  }
+
+  .back-btn .btn{
+    background-color: white;
+    color: #034078;
+    border: 1px solid #034078;
+    border-radius: 25px;
+  }
+  
+  .back-btn .btn:hover{
+    background-color: #034078; /* Green */
+    color: white;
+  }
+
+  .proj-desc{
+    border: 1px solid #11256e;
+    padding: 20px;
+    margin-top: 20px;
+  }
+
+  .proj-desc .details{
+
+    text-align: left;
+    font-size: 16px;
+    font-weight: lighter;
+    text-transform: capitalize;
+
+    text-align: justify;
+    text-justify: inter-word;
+  }
+
+  .proj-desc .goal{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 200px;
+    text-transform: capitalize;
+    color: #1282A2;
+  }
+
+  .proj-desc .goal .par{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 200px;
+    color: #0A1128;
+  }
+
+  .proj-desc .additional{
+    text-align: center;
+    font-size: 16px;
+    font-weight: lighter;
+  }

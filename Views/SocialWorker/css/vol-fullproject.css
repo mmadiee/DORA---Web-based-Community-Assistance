@@ -1,0 +1,210 @@
+/*BACK BUTTON*/
+
+.back-btn{
+    padding-top: 50px;
+    padding-bottom: 20px;
+    margin-left: 100px;
+  }
+
+  .back-btn .btn{
+    background-color: white;
+    color: #034078;
+    border: 1px solid #034078;
+    border-radius: 25px;
+  }
+
+  .back-btn .btn{
+    transition-duration: 0.4s;
+  }
+  
+  .back-btn .btn:hover{
+    background-color: #034078; /* Green */
+    color: white;
+  }
+
+  /* Main Content */
+
+  .container .content
+  {
+    padding-top: 20px;
+  }
+
+  /*DONATE NOW*/
+
+  .box{
+    border: 1px solid #11256e;
+    padding: 20px;
+  }
+
+ .donate-now .btn-don{
+    background-color: #034078;
+    color: #FEFCFB;
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px;
+    transition-duration: 0.4s;
+    border-color: #034078;
+  }
+
+  .donate-now .btn-don:hover{
+    background-color: #11256e;
+  }
+
+  .proj-img{
+    width: 100%;
+  }
+
+  .proj-desc{
+    border: 1px solid #11256e;
+    padding: 20px;
+    margin-top: 20px;
+  }
+
+  .proj-desc .details{
+
+    text-align: left;
+    font-size: 16px;
+    font-weight: lighter;
+    text-transform: capitalize;
+
+    text-align: justify;
+    text-justify: inter-word;
+  }
+
+  .proj-desc .goal{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 200px;
+    text-transform: capitalize;
+    color: #1282A2;
+  }
+
+  .proj-desc .goal .par{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 200px;
+    color: #0A1128;
+  }
+
+  .proj-desc .additional{
+    text-align: center;
+    font-size: 16px;
+    font-weight: lighter;
+  }
+
+   /* Reports */
+.content .report-box {
+  border: 1px solid #1282A2;
+  padding: 10px;
+  margin-bottom: 50px;
+  margin-top: 20px;
+}
+
+.content .report-box ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.content .report-box li {
+  border: 1px solid #ddd;
+  margin-bottom: 15px;
+  padding: 20px;
+  position: relative; /* To add a pseudo-element for the divider */
+}
+
+.content .report-box h4 {
+  font-size: 18px;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.content .report-box .report-body {
+  font-size: 14px; /* Adjust the font size for the report body */
+  margin: 0;
+  margin-bottom: 10px; /* Add some space between report body and date */
+}
+
+.content .report-box .report-date {
+  font-size: 12px; /* Adjust the font size for the date */
+  font-weight: lighter; /* Make the date text less bold */
+}
+
+.content .report-box img.report-image {
+  max-width: 100%; /* Ensure images don't exceed their container */
+  height: auto; /* Maintain aspect ratio */
+  display: block; /* Remove extra space below images */
+}
+
+/* Divider Line */
+.content .report-box li:not(:last-child)::after {
+  content: '';
+  display: block;
+  height: 1px;
+  background-color: #ddd;
+  position: absolute;
+  bottom: -10px; /* Adjust the position of the divider */
+  left: 0;
+  right: 0;
+}   
+
+.content .scrollable-div {
+  max-height: 500px; /* Set the desired height for the scrollable div */
+  overflow: auto; /* Enable vertical scrolling */
+}
+
+/* Gallery */
+.content .gallery-box {
+  border: 1px solid #1282A2;
+  padding: 10px;
+  margin-bottom: 50px;
+  position: relative; /* Needed for positioning overlays */
+  margin-top: 20px;
+}
+
+/* Define styles for the gallery grid */
+.content .gallery-box {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 10px;
+}
+
+/* Style for individual gallery images */
+.content .gallery-image {
+  position: relative; /* Needed for positioning the overlay content */
+  overflow: hidden; /* Hide overflowing content */
+  background-color: #f1f1f1; /* Background color for empty space in grid */
+  display: flex; /* Enable flex layout for content centering */
+  align-items: center; /* Center content vertically */
+  justify-content: center; /* Center content horizontally */
+}
+
+.content .gallery-image img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain; /* Maintain aspect ratio and fit within the container */
+}
+
+/* Style for the overlay */
+.content .overlay {
+  position: absolute;
+  bottom: 0; /* Position at the bottom of the image */
+  left: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.7); /* Semi-transparent background color */
+  color: white;
+  padding: 10px;
+  opacity: 0; /* Initially hidden */
+  transition: opacity 0.3s ease;
+}
+
+/* Style for the overlay content (date and time) */
+.content .overlay p {
+  margin: 0;
+  padding: 5px;
+}
+
+/* Show the overlay on hover */
+.content .gallery-image:hover .overlay {
+  opacity: .5;
+}

@@ -1,0 +1,228 @@
+.info{
+    margin: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.box{
+    border-radius: 5px;
+    border: 1px solid #1282A2;
+    padding: 5px;
+}
+
+.info .box .title{
+    font-weight: 300;
+    font-size: medium;
+}
+
+.info .box .data{
+    font-weight: 500;
+    font-size: large;
+    color: #034078  ;
+}
+
+
+.div-btn .btn{
+    border-radius: 10px;
+    border: 3px solid #034078;
+    padding: 10px;
+    background-color: #EFEFEF;
+    color: #034078;
+    width: 100%;
+}
+
+.div-btn .btn:hover{
+    background-color: #034078 ;
+    color: #EFEFEF;
+}
+
+
+.com-btn .c-btn{
+    border-radius: 10px;
+    border: 3px solid #034078;
+    padding: 10px;
+    background-color: #EFEFEF;
+    color: #034078;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.com-btn .c-btn:hover{
+    background-color: #034078 ;
+    color: #EFEFEF;
+}
+
+.home-section .back-btn .b-btn{
+    border-radius: 10px;
+    border: 3px solid #034078;
+    padding: 5px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    background-color: #EFEFEF;
+    color: #034078;
+    font-size: small;
+}
+
+.home-section .back-btn .b-btn:hover{
+    color: #EFEFEF;
+    background-color: #034078;
+}
+
+/* progress bar */
+
+.data .progress-box{
+    margin: 20px;
+    height: 50px;
+    justify-content: center;
+}
+
+
+.data .progress-box .progress {
+  height: 30px; 
+}
+
+.data .progress-box .progress .progress-bar {
+  height: 30px; 
+  background-color: #034078;
+}
+
+.progress-label {
+    font-size: 20px;
+    justify-content: center;
+    text-align: center;
+    color: #1282A2;
+    font-weight: 400;
+}
+
+/* Graph */
+.data .graph-box{
+    border: 1px solid #1282A2;
+    padding: 10px;
+    margin-bottom: 50px;
+}
+
+.data .graph {
+    height: 350px;
+}
+.data .graph-box .progress-text{
+  font-size: large;
+  font-weight: 600;
+  color: #001F54;
+  padding-left: 5%;
+}
+
+/* Reports */
+.data .report-box {
+    border: 1px solid #1282A2;
+    padding: 10px;
+    margin-bottom: 50px;
+}
+
+.data .report-box ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.data .report-box li {
+    border: 1px solid #ddd;
+    margin-bottom: 15px;
+    padding: 20px;
+    position: relative; /* To add a pseudo-element for the divider */
+}
+
+.data .report-box h4 {
+    font-size: 18px;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.data .report-box .report-body {
+    font-size: 14px; /* Adjust the font size for the report body */
+    margin: 0;
+    margin-bottom: 10px; /* Add some space between report body and date */
+}
+
+.data .report-box .report-date {
+    font-size: 12px; /* Adjust the font size for the date */
+    font-weight: lighter; /* Make the date text less bold */
+}
+
+.data .report-box img.report-image {
+    max-width: 100%; /* Ensure images don't exceed their container */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Remove extra space below images */
+}
+
+/* Divider Line */
+.data .report-box li:not(:last-child)::after {
+    content: '';
+    display: block;
+    height: 1px;
+    background-color: #ddd;
+    position: absolute;
+    bottom: -10px; /* Adjust the position of the divider */
+    left: 0;
+    right: 0;
+}   
+
+.data .scrollable-div {
+    max-height: 500px; /* Set the desired height for the scrollable div */
+    overflow: auto; /* Enable vertical scrolling */
+}
+
+/* Gallery */
+.data .gallery-box {
+    border: 1px solid #1282A2;
+    padding: 10px;
+    margin-bottom: 50px;
+    position: relative; /* Needed for positioning overlays */
+}
+
+/* Define styles for the gallery grid */
+.data .gallery-box {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 10px;
+}
+
+/* Style for individual gallery images */
+.data .gallery-image {
+    position: relative; /* Needed for positioning the overlay content */
+    overflow: hidden; /* Hide overflowing content */
+    background-color: #f1f1f1; /* Background color for empty space in grid */
+    display: flex; /* Enable flex layout for content centering */
+    align-items: center; /* Center content vertically */
+    justify-content: center; /* Center content horizontally */
+}
+
+.data .gallery-image img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain; /* Maintain aspect ratio and fit within the container */
+}
+
+/* Style for the overlay */
+.data .overlay {
+    position: absolute;
+    bottom: 0; /* Position at the bottom of the image */
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7); /* Semi-transparent background color */
+    color: white;
+    padding: 10px;
+    opacity: 0; /* Initially hidden */
+    transition: opacity 0.3s ease;
+}
+
+/* Style for the overlay content (date and time) */
+.data .overlay p {
+    margin: 0;
+    padding: 5px;
+}
+
+/* Show the overlay on hover */
+.data .gallery-image:hover .overlay {
+    opacity: .5;
+}

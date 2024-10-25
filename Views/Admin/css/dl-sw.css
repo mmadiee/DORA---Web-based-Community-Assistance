@@ -1,0 +1,283 @@
+@page {
+    size: legal;
+    margin: 0; 
+    width: 100%;
+}
+#print-button {
+    display: none;
+    visibility: none;
+}
+
+@media print{
+    body {
+        margin: 0;
+    }
+    #footer{
+        position: fixed;
+        text-align: center;
+        margin-top: -10%;
+        background-color: #001F54;
+        color: white;
+        transform: translateX(65%) scale(6.5, 2.3);
+        visibility: visible;
+        display: inline;
+    }
+    #h3footer{
+        padding-top: 10px;
+        font-size: 10px;
+        transform: translateX(-11%) scale(0.4, 1.2);
+    }
+    #panel_label{
+        display: none;
+        visibility: none;
+    }
+    #current-date{
+        font-size: 8px;
+        transform: translateX(-11%) scale(0.4, 1.2);
+    }
+
+    /*dates top*/
+    label[for="start_date"] {
+        display: none;
+        visibility: none;
+    }
+    #start_date{
+        display: none;
+        visibility: none;
+    }
+    label[for="end_date"] {
+        display: none;
+        visibility: none;
+    }
+    
+    #end_date{
+        display: none;
+        visibility: none;
+    }
+    #update_button{
+        display: none;
+    }
+
+    /*Row 1*/
+    #card1{
+        position: relative;
+        top: 13px;
+        left: 50%;
+        transform: translateX(-165%) scale(1.4, 1.2); 
+        width: 150%; 
+        padding: 5px; 
+        border: 1px solid #000; 
+        margin-top: -10px;
+    }
+    #card2{
+        position: relative;
+        top: 20px;
+        left: 50%;
+        transform: translateX(-72%) scale(1.8, 1.3);
+        width: 150%; 
+        padding: 5px; 
+        border: 1px solid #000; 
+        margin-top: -5px;
+        margin-bottom: 70px;
+    }
+    #card3{
+        position: relative;
+        top: 20px;
+        left: 50%;
+        transform: translateX(20%) scale(1.4, 1.2);
+        width: 150%; 
+        padding: 5px; 
+        border: 1px solid #000; 
+        margin-top: -10px;
+    }
+    #card4{
+        position: relative;
+        top: 10px;
+        left: 50%;
+        transform: translateX(-165%) scale(1.4, 1.4); 
+        width: 150%; 
+        padding: 5px; 
+        border: 1px solid #000; 
+        margin-top: 1px;
+    }
+    #card5{
+        position: relative;
+        top: 10px;
+        left: 50%;
+        transform: translateX(-72%) scale(1.8, 1.4);
+        width: 150%; 
+        padding: 5px; 
+        border: 1px solid #000; 
+        margin-bottom: 25px;
+    }
+    #card6{
+        position: relative;
+        top: 10px;
+        left: 50%;
+        transform: translateX(20%) scale(1.4, 1.4); 
+        width: 150%; 
+        padding: 5px; 
+        border: 1px solid #000; 
+    }
+    #tt-card{
+        text-align: center;
+        margin-top: -13px;
+    }
+    #res6-card{
+        text-align: center;
+        margin-top: -10px;
+        font-size: 13px;
+    }
+    #res6-1-card{
+        text-align: center;
+        margin-top: -8px;
+        font-size: 13px;
+    }
+    #txt-card{
+        text-align: center;
+        margin-top: -27px;
+    }
+    #res-card{
+        text-align: center;
+        margin-top: -13px;
+    }
+
+    #h2font{
+        font-size: 23px;
+        transform: translateX(-1%) scale(0.9, 1.6);
+        padding-bottom: 5px;
+        padding-top: 8px;
+    }
+    #h3font{
+        font-size: 20px;
+        transform: translateX(-1%) scale(1.2, 1.6);
+        padding-bottom: 5px;
+
+    }
+    /*SW Chart*/
+    #sw-chart{
+        transform: translateX(-68%) scale(0.3,1.1);  
+        width: 30%; 
+        margin: 0; 
+        position: static; 
+    }
+    #sw-chart-container{
+        position: relative;
+        top: 35px;
+        left: 50%;
+        transform: translateX(-60%) scale(2.1,1.1); 
+        width: 150%;  
+        padding-top: 4px; 
+        border: 1px solid #000; 
+    }
+
+    label[for="start-date"] {
+        display: none;
+        visibility: none;
+    }
+    #start-date{
+        display: none;
+        visibility: none;
+    }
+
+    label[for="end-date"] {
+        display: none;
+        visibility: none;
+    }
+   
+    #end-date{
+        display: none;
+        visibility: none;
+    }
+    #update{
+        display: none;
+    }
+    #export-button{
+        display: none;
+    }
+    /*Row 3*/
+   
+    /*Row 4*/
+    #occupationChart{
+        transform: translateX(-26%) scale(0.3,0.9);
+        width: 20%;  
+        position: static;
+    }
+    #occupationChart-container{
+        position: relative;
+        top: 5px;
+        left: 50%;
+        transform: translateX(-187%) scale(2.0,0.8);
+        width: 150%; 
+        border: 1px solid #000; 
+        margin-top: -200px;
+    }
+
+    #genderPieChart{
+        transform: translateX(-32%) scale(0.4,1.0);
+        width: 20%; 
+        position: static; 
+    }
+    #genderPieChart-container{
+        position: relative;
+        top: 5px;
+        left: 50%;
+        transform: translateX(-58%) scale(2.3,0.8);
+        width: 150%; 
+        border: 1px solid #000; 
+    }
+
+    #statusDonutChart{
+        transform: translateX(-32%) scale(0.4,1.0);
+        width: 20%; 
+        position: static; 
+    }
+    #statusDonutChart-container{
+        position: relative;
+        top: 5px;
+        left: 50%;
+        transform: translateX(-58%) scale(2.3,0.8);
+        width: 150%; 
+        border: 1px solid #000; 
+    }
+
+    #ageRangesBarChart{
+        transform: translateX(-32%) scale(0.4,1.0);
+        width: 20%; 
+        position: static; 
+    }
+    #ageRangesBarChart-container{
+        position: relative;
+        top: 5px;
+        left: 50%;
+        transform: translateX(-58%) scale(2.3,0.8);
+        width: 150%; 
+        border: 1px solid #000; 
+    }
+
+    #swAverageHoursLineChart{
+        transform: translateX(-32%) scale(0.4,1.0);
+        width: 20%; 
+        position: static; 
+    }
+    #swAverageHoursLineChart-container{
+        position: relative;
+        top: 5px;
+        left: 50%;
+        transform: translateX(-58%) scale(2.3,0.8);
+        width: 150%; 
+        border: 1px solid #000; 
+    }
+
+    #cityBarChart{
+        display: none;
+    }
+    #cityBarChart-container{
+        display: none;
+    }
+    #nosw{
+        margin-top: -15px;
+    }
+
+
+}

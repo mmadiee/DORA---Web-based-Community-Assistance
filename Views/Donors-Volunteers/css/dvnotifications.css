@@ -1,0 +1,47 @@
+body{
+    font-family: "basic-sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1{
+    color: #034078;
+    letter-spacing: 1px;
+}
+
+h3{
+    color: #1282A2;
+}
+
+.container{
+    margin-top: 20px;
+    margin-left: 22%;
+    margin-right: 30%;
+}
+
+.notif{
+    border: 2px solid #034078;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0 15px 25px rgba(0,0,0,0.1);
+}
+
+.notif:hover{
+    cursor: pointer;
+    background-color: #d3d3d3;
+    
+}
+
+.notifabout{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+
+.hours{
+    font-size: 13px;
+    color: #707070;
+}

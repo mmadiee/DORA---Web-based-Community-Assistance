@@ -1,0 +1,56 @@
+.title{
+    font-size: 30px;
+    margin-top: 50px;
+}
+h1{
+    color: #034078;
+}
+.wrapper{
+    height: 130px;
+    width: 130px;
+    position: relative;
+    border: 5px solid #034078;
+    border-radius: 50%;
+    background: src="profile.jpg";
+    background-size: 100% 100%;
+}
+.my_file{
+    position: center;
+    margin-top: 130px;
+    margin-left: 8px;
+    margin-right: 40px;
+    bottom: 0;
+    outline: none;
+    color: transparent;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+button{
+    justify-content: center;
+    background-color: #034078;
+}
+.btn1{
+    justify-content: center;
+    margin-left: 140px;
+    margin-right: 70px;
+    width: 180px;
+    height: 47px;
+    background-color: #034078;
+}
+.btn2{
+    justify-content: center;
+    margin-left: 10px;
+    margin-right: 40px;
+    width: 180px;
+    height: 47px;
+    background-color: red;
+}
+.btn1:hover{
+    cursor: pointer;
+    background-color: #3091eb;
+}
+.btn2:hover{
+    cursor: pointer;
+    background-color: rgb(249, 106, 106);
+}

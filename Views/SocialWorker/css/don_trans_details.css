@@ -1,0 +1,71 @@
+.transaction-receipt {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #034078;
+    border-radius: 8px;
+    width: 350px;
+    margin: 0 auto;
+}
+
+.receipt-title {
+    text-align: center;
+    font-size: 14px;
+    font-weight: lighter;
+    margin-bottom: 20px;
+}
+
+.receipt-image {
+    text-align: center;
+}
+
+.receipt-image img {
+    max-width: 100px;
+    max-height: 80px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+
+.receipt-image p {
+    margin: 5px 0;
+}
+
+.receipt-details {
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+.amount {
+    font-size: 18px;
+    color: #034078;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.donation-text {
+    font-size: 14px;
+    font-weight: light;
+    color: #605d5d;
+    margin: 0;
+    text-align: center;
+}
+
+hr {
+    margin: 10px 0;
+}
+
+.logo-section {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.centered-logo {
+    align-self: center;
+}

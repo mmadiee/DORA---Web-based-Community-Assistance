@@ -1,0 +1,112 @@
+/* for poppins font */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&sidplay=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    background: #efefef;
+}
+
+nav{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    background: #034078;
+    width: 300px;
+    overflow: hidden;
+    transition: width 0.2s linear;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+}
+
+.logo{
+    text-align: center;
+    display: flex;
+    transition: all 0.8s ease;
+}
+
+.forlogo{
+    margin-top: 25px;
+    margin-left: 20px;
+}
+
+.logo img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+
+}
+
+.logo span{
+    font-weight: bold;
+    padding: 15px;
+    font-size: 20px;
+    margin-left: 15px;
+    letter-spacing: 2px;
+}
+
+a{
+    position: relative;
+    color: rgb(85, 83, 83);
+    font-size: 14px;
+    display: table;
+    width: 300px;
+    padding: 10px
+}
+
+.fas{
+    position: relative;
+    width: 70px;
+    height: 40px;
+    top: 14px;
+    font-size: 20px;
+    text-align: center;
+}
+.fa{
+    position: relative;
+    width: 70px;
+    height: 40px;
+    top: 14px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.nav-item{
+    position: relative;
+    top: 12px;
+    margin-left: 10px;
+
+}
+
+a{
+    color: #ffffff;
+}
+
+a:hover{
+    background: #efefef;
+    color: #034078;
+
+}
+
+
+nav:hover{
+    width: 300px;
+}
+
+.logout{
+    position: absolute;
+    bottom: 0;
+}
+
+/* Dashboard
+*/
+

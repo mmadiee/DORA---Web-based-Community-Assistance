@@ -1,0 +1,64 @@
+.nav-pills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Change the background color of active nav-pills */
+.nav-pills .nav-link.active,
+.nav-pills .nav-link.active:focus,
+.nav-pills .nav-link.active:hover {
+    background-color: #034078; /* Change to the desired color */
+    color: #fff; /* Text color for active pill */
+}
+
+/* Change the background color of inactive nav-pills */
+.nav-pills .nav-link {
+    color: #333; /* Text color for inactive pill */
+}
+
+/* Hover effect for nav-pills */
+.nav-pills .nav-link:hover {
+    background-color: #ddd; /* Change to the desired color on hover */
+    color: #034078; /* Text color on hover */
+}
+
+.tablebox {
+    text-align: center;
+    width: 75%;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
+    overflow: hidden; /
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 10px; 
+}
+
+th {
+    background-color: #f2f2f2;
+    color: #333; 
+    padding: 12px;
+    vertical-align: middle; 
+}
+
+td {
+    padding: 10px 12px;
+    vertical-align: middle; 
+}
+
+tbody:hover {
+    background-color: #f5f5f5;
+}
+
+
+.modal-footer {
+    display: flex;
+    justify-content: center;
+}
+.modal-footer .btn {
+    margin: 0 5px; 
+}

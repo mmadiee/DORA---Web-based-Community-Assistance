@@ -1,0 +1,32 @@
+body{
+    background-color: #EFEFEF;
+}
+
+#volunteer{
+    background: #034078;
+    margin: -10px;
+
+}
+
+#vol{
+    color: #FEFCFB;
+    font-size: 40px;
+    padding: 40px;
+    text-align: center;
+    font-family: "basic-sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: 2px;
+}
+
+#vol1-text{
+    margin-left: 10%;
+    padding-top: 10%;
+    color: #0A1128;
+    font-size: 30px;
+    font-family: "basic-sans", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: 1px;
+}
+

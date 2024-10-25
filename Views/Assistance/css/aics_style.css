@@ -1,0 +1,198 @@
+* {
+    box-sizing: border-box;
+  }
+
+  .two{
+    margin-top: 40px;
+  }
+  
+  body {
+    font-family: "basic-sans", sans-serif;
+    background-color: #FEFCFB;
+    color: #1282A2;
+  }
+  
+  .two h1{
+    font-size: 55px;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    color: #001F54;
+    margin-top: 8%;
+  }
+  
+  .progd{
+    margin-top: -20px;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  
+  .two p {
+    font-size: 30px;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .aprog{
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex; 
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .btnprog{
+    padding: 40px;
+    margin: 10px;
+    border: 1px solid #001F54;
+    border-radius: 120px;
+    font-size: 80px;
+    color: #001F54;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+  
+  .aprog div p {
+    margin-top: 15px;
+  }
+  
+  .btnprog:hover{
+    color: #fff;
+    background-color: #1282A2;
+  }
+  
+  
+  @media (max-width: 768px) {
+   
+    h1 {
+        font-size: 36px;
+        margin-top: 4%;   
+    }
+  
+  
+    p {
+        font-size: 24px;
+        margin-top: 20px;
+    }
+  
+    .progd {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+  
+    .aprog {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+  
+    .aprog > div {
+        margin: 5px;
+    }
+  }
+  
+  /*Loader*/
+.loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #1282A2;
+  transition: opacity 0.75s, visibility 0.75s;
+}
+
+.loader--hidden {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.loader::after {
+  content: "";
+  width: 75px;
+  height: 75px;
+  border: 15px solid #FEFCFB;
+  border-top-color: #001F54;
+  border-radius: 50%;
+  animation: loading 0.75s ease infinite;
+}
+
+@keyframes loading {
+  from {
+    transform: rotate(0turn);
+  }
+  to {
+    transform: rotate(1turn);
+  }
+}  
+
+/* NavBar    Styling */
+body{
+  background-color:#d3d0d0;
+  padding-top: 80px;
+}
+.navbar .navbar-nav .nav-link {
+  color: #0A1128;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+background-color: #001F54;
+color: #FEFCFB;
+}
+
+.navbar .navbar-nav .nav-link.active {
+background-color: #001F54;
+color: #FEFCFB;
+}
+
+
+.navbar .navbar-brand {
+  padding-left: 100px;
+}
+
+.navbar .navbar-toggler{
+  margin-right: 100px;
+}
+
+
+@media only screen and (min-width: 992px) {
+  .navbar {
+    padding: 0;
+  }
+
+  .navbar .navbar-collapse .navbar-nav{
+      margin-right: 100px;
+  }
+}
+
+.navbar-expand-lg{
+background: #FEFCFB;
+border-top: 7px solid #001F54;
+-webkit-box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
+-moz-box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
+box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
+padding-top: 0;
+padding-bottom: 0;
+margin-top: 0;
+margin-bottom: 0;
+}
+
+.navbar .navbar-nav .nav-link {
+  padding: 1em 0.7em;
+  transition: all 0.5s;
+}
+
+/* Scrollbar Styling */
+::-webkit-scrollbar{
+  width: 5px;
+}
+
+::-webkit-scrollbar-thumb{
+  background: #001F54;
+}

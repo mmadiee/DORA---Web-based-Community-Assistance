@@ -1,0 +1,182 @@
+FORM CSS
+#content {
+  width: 50%;
+  margin: 100px auto;
+  border: 1px solid #cbcbcb;
+}
+
+.instruction {
+  margin-bottom: 25px;
+}
+
+form {
+  width: 75%;
+  margin: 100px auto;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+input[type=text],
+input[type=number],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+.content {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+
+  .col-25,
+  .col-75,
+  input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+
+div.container-content-title {
+  margin: 10px 10px 10px 10px;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 300px;
+  text-transform: capitalize;
+}
+
+/*BACK BUTTON*/
+
+.back-btn{
+  padding-top: 50px;
+  padding-bottom: 20px;
+  margin-left: 100px;
+}
+
+.back-btn .btn{
+  background-color: white;
+  color: #034078;
+  border: 1px solid #034078;
+  border-radius: 25px;
+}
+
+.back-btn .btn{
+  transition-duration: 0.4s;
+}
+
+.back-btn .btn:hover{
+  background-color: #034078; 
+  color: white;
+}
+
+.title{
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.title .title-box .donate-to{
+  font-weight: 300;
+  font-size: large;
+}
+
+.title .title-box .box{
+  border: 1px solid #11256e;
+  padding: 20px;
+}
+
+.don-form{
+  border: .5px solid #cbcbcb;
+  margin-bottom: 50px;
+}
+
+.top-color{
+  height: 5px;
+  background-color: #11256e;
+}
+
+.don-form .mode .logo{
+  width: 130px;
+}
+
+.don-form .fields .imgbox{
+  border: 1px solid #cbcbcb;
+  padding: 20px;
+  border-radius: 4px;
+}
+
+.submit-btn{
+  padding-top: 50px;
+}
+
+input[type=submit] {
+  background-color: white;
+  color: #034078;
+  border: 1px solid #034078;
+  border-radius: 25px;
+  cursor: pointer;
+  float: right;
+  transition-duration: 0.4s;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right   : 20px;
+}
+
+input[type=submit]:hover {
+  background-color: #034078; 
+  color: white;
+}
+
+/* Progress Bar*/
+.box .progress-raised{
+  font-size: large;
+  font-weight: 600;
+  color: #001F54;
+}
+
+.box .progress-to-go{
+  font-size: medium;
+  font-weight: 400;
+  text-align: right;
+  color: #001F54;
+  margin-bottom: 0;
+}
+
+.box .progress .progress-bar {
+  background-color: #1282A2;
+}

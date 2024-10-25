@@ -1,0 +1,66 @@
+.home-section .back-btn .b-btn{
+    border-radius: 10px;
+    border: 3px solid #034078;
+    padding: 5px;
+    margin-left: 50px;
+    margin-bottom: 25px;
+    background-color: #EFEFEF;
+    color: #034078;
+    font-size: small;
+}
+
+.home-section .back-btn .b-btn:hover{
+    color: #EFEFEF;
+    background-color: #034078;
+}
+
+.data-box {
+    border: 1px solid #034078;
+    padding-top: 20px;
+}
+
+.data-box .data{
+    color: #1282A2;
+    font-weight: 700;
+    font-size: larger;
+}
+
+.home-section .table{
+    margin-top: 20px;
+    border: 1px solid #034078;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.home-section .table .fieldbox{
+    border: 1px solid #034078;
+}
+
+
+.home-section .box{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 100%;
+}
+
+
+.home-section .box .view-button{
+    width: 100%;
+    padding: 50px;
+    border-color: #1282A2;
+    background-color: #EFEFEF;
+}
+
+.home-section .tab-content .table .d-btn{
+    border-radius: 10px;
+    border-color: #1282A2;
+    padding: 5px;
+    background-color: #EFEFEF;
+}
+
+.home-section .tab-content .table .d-btn:hover{
+    background-color: #1282A2;
+    color: #EFEFEF;
+}

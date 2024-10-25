@@ -1,0 +1,152 @@
+body {
+    background-color: #f0f0f0; 
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.download {
+    text-align: center; 
+    margin-top: 10px; 
+    padding: 10px; 
+}
+
+.download a {
+    text-decoration: none; 
+}
+
+.download button {
+    display: inline-block; 
+    padding: 10px 20px; 
+    margin: 5px; 
+    background-color: #007bff; 
+    color: #fff; 
+    border: none; 
+    border-radius: 5px;
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+}
+
+.download button:hover {
+    background-color: #0056b3; 
+}
+
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    width: 100%;
+}
+
+table, th, td {
+    border: 1px solid #ccc; 
+}
+
+th, td {
+    padding: 5px;
+    text-align: center; 
+}
+
+td{
+    font-size: 12px;
+}
+
+th {
+    background-color: #1282A2; 
+    color: white;
+}
+
+.header {
+    background-color: #fff; 
+    border: 1ppx color #1282A2;  
+    padding: 10px 20px; 
+    height: 60px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+}
+
+.header img {
+    height: 40px; 
+    margin-right: 10px; 
+}
+
+.header h1 {
+    font-size: 18px; 
+    margin: 0; 
+    text-align: right;
+}
+
+.header p {
+    font-size: 12px; 
+    margin: 0; 
+    text-align: right;
+}
+
+.divider {
+    border-top: 2px solid #333; 
+    margin-top: 10px; 
+}
+
+
+.title-container {
+    text-align: center; 
+    padding: 20px;
+}
+
+
+.title-container a {
+    text-align: center; 
+    padding: 20px; 
+}
+
+.title-container h3 {
+    margin: 0;
+}
+
+.title-container p {
+    margin: 5px 0; 
+    color: #383737;
+}
+
+
+.data {
+    font-size: 24px; 
+    font-weight: bold; 
+    color: #1282A2;
+}
+
+.data-label {
+    font-size: 14px; 
+    color: black 
+}
+
+.custom-row {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #ccc; 
+    margin-left: 50px; 
+    margin-right: 50px; 
+}
+
+.custom-col {
+    text-align: center; 
+    flex: 1; 
+    margin: 5px; 
+}
+
+.container {
+    width: 7.5in; 
+    height: auto; 
+    margin: 0 auto;
+    background-color: #ffffff;
+    border-radius: 2px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}

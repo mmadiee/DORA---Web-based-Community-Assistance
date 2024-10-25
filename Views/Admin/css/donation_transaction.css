@@ -1,0 +1,25 @@
+.data-box {
+    border: 1px solid #034078;
+    padding-top: 20px;
+}
+
+.data-box .data{
+    color: #1282A2;
+    font-weight: 700;
+    font-size: larger;
+}
+
+table {
+    width: 100%; /* Ensure the table fills its container */
+    border-collapse: collapse;
+}
+
+th, td{
+    text-align: center; /* Center align the content */
+    vertical-align: middle; /* Vertically center the content */
+    padding: 8px; /* Add padding for better spacing */
+}
+
+th {
+    background-color: lightgray; /* Change the background color of column headers */
+}

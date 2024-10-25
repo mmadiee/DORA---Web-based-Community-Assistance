@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+/*Page resultats.html*/
+
+.result {
+    height: 100vh;
+    display: absolute;
+    align-items: center;
+    justify-content: left;
+    margin-top: 20px;
+}
+
+.result-content {
+    background-color: #fff;
+    width: 70%;
+    border: 1px solid rgb(128, 128, 128);
+    padding: 20px;
+    border-radius: 6px;
+    overflow: auto;
+    margin-left: 25px;
+
+}
+
+.result-content a {
+    color: #1282A2;
+    text-decoration: 0;
+}
+
+.result-content a:hover {
+    text-decoration: underline;
+}
+
+/**Scroll bar css*/
+::-webkit-scrollbar {
+    width: 8px;
+    height: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #ffffff;
+}
+
+.result-content h3 {
+    text-align: center;
+    margin-top: 10px;
+    text-transform: uppercase;
+
+}
+
+.liste-produits {
+    max-height: 400px;
+    overflow: auto;
+}
+
+.produit {
+    margin: 20px 0;
+    height: 100px;
+    display: flex;
+}
+
+.produit .image-prod {
+    height: 100%;
+    width: 100px;
+}
+
+.produit .image-prod img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.produit .text {
+    margin-left: 15px;
+    overflow: auto;
+    width: 80%;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.produit .text .titre {
+    text-transform: uppercase;
+}
+
+.produit .text .description {
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 16px;
+}
+
+.produit .text .category {
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 16px;
+    text-transform: capitalize;
+}
+
+/*responsive*/
+@media (max-width:745px) {
+    .result-content {
+        width: 80%;
+    }
+
+}
+
+/* Scrollbar Styling */
+::-webkit-scrollbar{
+    width: 5px;
+  }
+  
+  ::-webkit-scrollbar-thumb{
+    background: #001F54;
+  }
+  

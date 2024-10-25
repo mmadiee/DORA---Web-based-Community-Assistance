@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+thead{
+    background-color: #034078;
+    color: white;
+}
+
+td a{
+    color: #034078;
+    font-weight: bold;
+}
+h1{
+    margin-left: 14px;
+    position: top;
+}
+section{
+    width: 70%;
+    min-height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 270px;
+    position: relative;
+    
+}
+@media screen and(max-width:768px){
+    section{
+        padding: 50px;
+    }
+}

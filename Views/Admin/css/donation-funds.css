@@ -1,0 +1,155 @@
+
+.d-box {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: #f9f9f9;
+    text-align: center;
+    height: 100%;
+}
+
+/* Classes for different box colors */
+.box-funds {
+    border: 1px solid #1282A2; /* Yellow background for Total Funds Gathered */
+}
+
+.box-balance {
+    border: 1px solid #1282A2; /* Blue background for Current Paypal Balance */
+}
+
+.box-link {
+    background-color: #ffcc00; /* Pink background for Paypal link */
+}
+
+.box-link a {
+    text-decoration: none; /* Remove underline */
+    display: flex; /* Use flexbox for alignment */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%; /* Ensure the link takes the full height */
+}
+
+.box-link a i {
+    font-size: 30px;
+    color: inherit;
+    margin-bottom: 5px; /* Add some space between the icon and text */
+}
+
+.custom-stretched-link {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 1;
+}
+.custom-stretched-link i {
+    font-size: 36px;
+    color: inherit;
+}
+
+
+/* Responsive padding for different screen sizes */
+@media (max-width: 992px) {
+    .d-box {
+        padding: 15px; /* Adjust padding for medium devices */
+    }
+}
+
+@media (max-width: 768px) {
+    .d-box {
+        padding: 10px; /* Adjust padding for small devices */
+    }
+}
+
+/* Specific styles for the title and amount */
+.box-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%; /* Ensure the content takes the full height */
+    text-align: center; /* Center text within the box */    
+}
+
+.title {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.amount {
+    font-size: 20px;
+    color: #001F54;
+    margin: 0; /* Remove default margins */
+}
+
+/* Custom styling for the tabs */
+.nav-tabs {
+    border-radius: 5px; 
+    border-bottom: 0;
+}
+
+/* Custom styling for the tab content */
+.tab-content.border {
+    border: 1px solid #1282A2 !important;
+    border-radius: 0 0 5px 5px;
+    border-top: none; /* Remove top border to connect with active tab */
+}
+
+.tab-pane {
+    padding: 20px; /* Add padding to the tab content */
+}
+
+.nav-tabs .nav-link {
+    border-radius: 5px 5px 0 0; 
+    background-color: white; 
+    color: #333; 
+    border: 1px transparent;  
+    border-bottom: transparent;
+    transition: background-color 0.3s, color 0.3s; /* Adding transition */
+}
+
+.nav-tabs .nav-link:hover{
+    border: 1px solid #1282A2;
+    border-bottom: transparent;
+    color: #1282A2;
+}
+
+/* Adding transition on hover */
+.nav-tabs .nav-link:hover {
+    transition: background-color 0.3s, color 0.3s; /* Adding transition on hover */
+}
+
+.nav-tabs .nav-link.active {
+    background-color: #1282A2; 
+    border-color: #1282A2; 
+    border: 1px solid #1282A2;
+    color: white; 
+}
+
+.table {
+    text-align: center;
+}
+
+/* Vertical alignment for table cells */
+.table td,
+.table th {
+    vertical-align: middle;
+}
+
+/* Hover effect for table rows in the tbody */
+.table tbody tr:hover {
+    background-color: #f5f5f5; /* Change to the desired hover background color */
+    transition: background-color 0.3s; /* Add a smooth transition */
+}
+
+.check{
+    margin-bottom: 5px;
+}
+
+.form-check {
+    margin: 5px; 
+}

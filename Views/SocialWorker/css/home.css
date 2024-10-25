@@ -1,0 +1,14 @@
+.home-btn{
+    border: 1px solid #034078;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(239, 243, 246);
+    width: 100%;
+}
+
+.home-btn:hover{
+    background-color: #034078;
+    color: rgb(239, 243, 246);
+}
+    

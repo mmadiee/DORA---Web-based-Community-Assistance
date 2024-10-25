@@ -1,0 +1,198 @@
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.tables-d {
+  font-family: Mukta, sans-serif;
+  height: 100vh;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  color: #4f546c;
+  font-size: 0.9rem;
+  background-color: #f9fbff;
+}
+
+table {
+  border-collapse: collapse;
+  box-shadow: 0 5px 10px #e1e5ee;
+  background-color: white;
+  text-align: left;
+  overflow: hidden;
+}
+
+  thead {
+    box-shadow:  5px 10px #e1e5ee;
+  }
+
+  th {
+    padding: 1rem 2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    font-size: 1.0rem;
+    font-weight: 900;
+  }
+
+  td {
+    padding: 1rem 2rem;
+  }
+
+  .status {
+    border-radius: 0.2rem;
+    padding: 0.2rem 1rem;
+    text-align: center;
+  }
+
+    .status-pending {
+      background-color: #ffe0dc;
+      color: #a61300;
+    }
+
+    .status-verified {
+      background-color: #c8e6c9;
+      color: #388e3c;
+    }
+
+
+  .amount {
+    text-align: right;
+  }
+
+  tr:nth-child(even) {
+    background-color: #f4f6fb;
+  }
+
+
+  /* button css */
+
+  .button1 {
+ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ font-size: 16px;
+ font-weight: 400;
+ height: 45px;
+ width: 85px;
+ border: 0px solid;
+ background-image: linear-gradient(45deg,rgb(9, 9, 65),#1282A2,#1282A2);
+ background-size: 500% 400%;
+ color: white;
+ border-radius: 50px;
+ transition: 0.6s all;
+}
+
+.button1:hover {
+ background-position: 75% 50%;
+ transform: perspective(100px)
+}
+
+.button1:active {
+ transform: scale(0.95);
+ transition: 0.1s;
+}
+
+/* CSS OF THE CONTENT DONOR VERIFICATION UI */
+
+FORM CSS
+#content {
+  width: 50%;
+  margin: 20px auto;
+  border: 1px solid #cbcbcb;
+}
+
+.instruction {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+form {
+  width: 50%;
+  margin: 20px auto;
+}
+
+form div {
+  margin-top: 5px;
+}
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+input[type=text],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+  background-color: #11256e;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type=submit]:hover {
+  background-color: #1282A2;
+}
+
+.content {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+
+  .col-25,
+  .col-75,
+  input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+
+div.container-content-title {
+  margin: 10px 10px 10px 10px;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 300px;
+  text-transform: capitalize;
+}
